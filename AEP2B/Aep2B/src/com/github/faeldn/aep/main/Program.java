@@ -32,19 +32,19 @@ public class Program {
 			int opcao = 0;
 			
 			do {
-				System.out.println("~~ SISCON - Sistema de Agendamento de Consultas Domiciliares ~~");
+				System.out.println("~~ SISCOND - Sistema de Agendamento de Consultas Domiciliares ~~");
 				System.out.println("=========================================================");
 				System.out.println("|	1 - Registrar Consulta				|");
 				System.out.println("|	2 - Consultar Seu Agendamento			|");
 				System.out.println("|	3 - Consultar Todos os Atendimentos		|");
 				System.out.println("|	4 - Cancelar Atendimentos			|");
-				System.out.println("|	5 - Registar Médico				|");
-				System.out.println("|	6 - Consultar Médicos por CRM			|");
-				System.out.println("|	7 - Consultar Todos os Médicos Credenciados	|");
+				System.out.println("|	5 - Registar MÃ©dico				|");
+				System.out.println("|	6 - Consultar MÃ©dicos por CRM			|");
+				System.out.println("|	7 - Consultar Todos os MÃ©dicos Credenciados	|");
 				System.out.println("|	0 - Sair					|");
 				System.out.println("=========================================================");
 				
-				System.out.println("Opção: ");
+				System.out.println("OpÃ§Ã£o: ");
 				opcao = menu.nextInt();
 				switch (opcao) {
 				case 1:
@@ -69,7 +69,7 @@ public class Program {
 					controllerDoc.listAll();
 					break;
 				case 0:
-					System.out.println("Obrigado(a)! Até logo!");
+					System.out.println("Obrigado(a)! AtÃ© logo!");
 					break;
 				}
 			} while (opcao != 0);
